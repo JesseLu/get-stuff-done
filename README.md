@@ -1,24 +1,24 @@
-# get-shit-done
+# get-stuff-done
 
-get-shit-done is an easy to use command line program that blocks websites known to distract us from our work.
+get-stuff-done is an easy to use command line program that blocks websites known to distract us from our work.
 
 After cloning this repository, put it in your $PATH and ensure it is executable.
 
 Execute it as root because it modifies your hosts file and restarts your network daemon.
 
-## To get-shit-done
+## To get-stuff-done
 
-    $ sudo get-shit-done work
+    $ sudo get-stuff-done work
 
-## To no longer get-shit-done
+## To no longer get-stuff-done
 
-    $ sudo get-shit-done play
+    $ sudo get-stuff-done play
 
 ### $siteList
 
 Add or remove elements of this array for sites to block or unblock.
 
-### ~/.get-shit-done.ini
+### ~/.get-stuff-done.ini
 
 Appends additional sites to block.  Duplicates will be removed, and www is prepended.
 
